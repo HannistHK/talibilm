@@ -98,7 +98,7 @@
 
     .arabic-header {
       font-family: 'Noto Nastaliq Urdu', serif;
-      font-size: clamp(1.4rem, 4vw, 2.2rem);
+      font-size: clamp(1.8rem, 5vw, 3rem);
       color: var(--gold);
       opacity: 0.85;
       margin-bottom: 1rem;
@@ -107,7 +107,7 @@
     }
     .hero-title {
       font-family: 'Cinzel', serif;
-      font-size: clamp(2.8rem, 10vw, 6rem);
+      font-size: clamp(2rem, 7vw, 4rem);
       font-weight: 700;
       letter-spacing: 0.2em;
       background: linear-gradient(135deg, var(--gold-lt) 0%, var(--gold) 50%, #a07830 100%);
@@ -297,7 +297,8 @@
       color: #fff; font-size: 1.5rem;
       margin-bottom: 1.25rem;
     }
-    .instructor-name { font-family: 'Cinzel', serif; font-size: 1rem; color: var(--gold); margin-bottom: 0.75rem; }
+    .instructor-name { font-family: 'Cinzel', serif; font-size: 1rem; color: var(--gold); margin-bottom: 0.3rem; }
+    .instructor-role { font-size: 0.78rem; color: var(--text-muted); font-style: italic; margin-bottom: 0.75rem; letter-spacing: 0.03em; }
     .instructor-bio { list-style: none; }
     .instructor-bio li {
       font-size: 0.88rem; color: var(--text-muted);
@@ -679,6 +680,7 @@
       <div class="instructor-card">
         <div class="instructor-avatar"><i class="fas fa-user"></i></div>
         <p class="instructor-name">Shaykh Abu Abdullah Sanabili</p>
+        <p class="instructor-role">Initiative head, Program supervisor and Instructor</p>
         <ul class="instructor-bio">
           <li><i class="fas fa-circle"></i> Aalim Fazil — Jamia Islamia Sanabil, Delhi</li>
           <li><i class="fas fa-circle"></i> BA Urdu, Osmania University</li>
@@ -689,6 +691,7 @@
       <div class="instructor-card">
         <div class="instructor-avatar"><i class="fas fa-user"></i></div>
         <p class="instructor-name">Abu Muʿawiyah al-Athari</p>
+        <p class="instructor-role">Assistant head, Coordinator and Instructor</p>
         <ul class="instructor-bio">
           <li><i class="fas fa-circle"></i> Ijazahs from 130+ Scholars Worldwide</li>
           <li><i class="fas fa-circle"></i> Islamic Studies Instructor</li>
@@ -696,10 +699,35 @@
         </ul>
       </div>
     </div>
+
+    <!-- With the help of -->
+    <div style="margin-top: 3.5rem;">
+      <p class="section-label center"><span>With the Help of</span></p>
+      <div class="instructor-grid" style="margin-top: 1.5rem; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));">
+        <div class="instructor-card">
+          <div class="instructor-avatar" style="background: linear-gradient(135deg, #2a5c3a, #7a6020);"><i class="fas fa-user"></i></div>
+          <p class="instructor-name">Shahzeb Al-Athari</p>
+          <p class="instructor-role">Coordinator, Moderator &amp; Volunteer</p>
+          <ul class="instructor-bio">
+            <li><i class="fas fa-circle"></i> Course Coordination &amp; Student Support</li>
+            <li><i class="fas fa-circle"></i> Community Moderation</li>
+            <li><i class="fas fa-circle"></i> Volunteer Service</li>
+          </ul>
+        </div>
+        <div class="instructor-card">
+          <div class="instructor-avatar" style="background: linear-gradient(135deg, #2a5c3a, #7a6020);"><i class="fas fa-user"></i></div>
+          <p class="instructor-name">Taha Al-Athari</p>
+          <p class="instructor-role">Coordinator, Moderator &amp; Volunteer</p>
+          <ul class="instructor-bio">
+            <li><i class="fas fa-circle"></i> Course Coordination &amp; Student Support</li>
+            <li><i class="fas fa-circle"></i> Community Moderation</li>
+            <li><i class="fas fa-circle"></i> Volunteer Service</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
-
-<!-- CERTIFICATION -->
 <section id="cert">
   <div class="container" style="text-align:center">
     <p class="section-label center"><span>Certification</span></p>
@@ -796,11 +824,11 @@
             <small>Register or ask a question</small>
           </span>
         </a>
-        <a href="mailto:info@talibuilm.com" class="btn-contact btn-email">
+        <a href="/cdn-cgi/l/email-protection#147d7a727b546075787d76617d78793a777b79" class="btn-contact btn-email">
           <i class="fas fa-envelope fa-lg"></i>
           <span>
             <strong>Email Us</strong><br/>
-            <small>info@talibuilm.com</small>
+            <small><span class="__cf_email__" data-cfemail="afc6c1c9c0efdbcec3c6cddac6c3c281ccc0c2">[email&#160;protected]</span></small>
           </span>
         </a>
       </div>
@@ -820,18 +848,10 @@
   <p class="footer-text" style="margin-top:0.5rem; font-style:italic; opacity:0.6;">"Seek knowledge from the cradle to the grave."</p>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
   function toggleMenu() {
     document.getElementById('mobileMenu').classList.toggle('open');
   }
   // Close mobile menu on outside click
   document.addEventListener('click', function(e) {
-    const menu = document.getElementById('mobileMenu');
-    const btn = document.querySelector('.hamburger');
-    if (!menu.contains(e.target) && !btn.contains(e.target)) {
-      menu.classList.remove('open');
-    }
-  });
-</script>
-</body>
-</html>
+    con
